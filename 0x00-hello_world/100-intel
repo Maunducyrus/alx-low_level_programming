@@ -1,6 +1,5 @@
 #!/bin/bash
 gcc -S -masm=intel -$CFILE
-
 /*
  * File: 101-quote.c
  * Auth: Brennan D Baraban
