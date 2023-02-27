@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 - function should print only one character out of two starting with the first one
+ * puts2 - function print only one character out of two
  * @str: input
  * Return: print
  */
@@ -24,6 +24,5 @@ void puts2(char *str)
 			_putchar(str[o]);
 		}
 	}
-	_putchar("\n")
-}
-
+	_putchar("\n");
+}	
