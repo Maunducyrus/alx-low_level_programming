@@ -1,24 +1,33 @@
 #include "main.h"
 /**
- * leeet - encode into 1337speak
- * @n: input value
- * Return: n value
+ * leet -  encodes a string into 1337.
+ * @s: string to code
+ * Return: the enconde string.
  */
-char *leet(char *)
+char *leet(char *s)
 {
-	int i, j;
-	char s1[] = "aAeEoOtTlL";
-	char s2[] = "4433007711";
+	int i;
+	int j;
+	int k;
 
-	for (i = 0; n[i] != '\0'; i++)
+	char l[] = "oOlLeEaAtT";
+	char e[] = "0011334477";
+
+	i = 0;
+	while (s[i] != '\0')
 	{
-		for (j = 0; j < 10; j++)
+		j = 0;
+		k = 0;
+		while (l[j] != '\0')
 		{
-			if (n[i] == s1[j])
+			if (s[i] == l[j])
 			{
-				n[i] = s2[j];
+				k = j;
+				s[i] = e[k];
 			}
+			j++;
 		}
+		i++;
 	}
-		return (n);
+	return (s);
 }
