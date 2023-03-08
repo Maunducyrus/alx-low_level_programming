@@ -1,5 +1,5 @@
-#ifndef FILE_MAIN.H
-#define FILE_MAIN.H
+#ifndef FILE_NAME
+#define FILE_NAME
 
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
