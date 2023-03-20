@@ -18,7 +18,7 @@ struct dog
 /**
  * dog_t - typedef forr truct dog
  */
-tydef struct dog dogg_t;
+typedef struct dog dogg_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
